@@ -18,7 +18,7 @@ bool isPalindrome(const string& str, int left, int right);
 int main() {
     // Prompt the user for a string input
     string input;
-    cout << "Enter a word: ";
+    cout << "Enter a string: ";
     getline(cin, input);
 
     // Call the recursive function to check if the input is a palindrome
